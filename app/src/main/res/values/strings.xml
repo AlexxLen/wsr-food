@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">WSR Food</string>
+    <string name="email">Email</string>
+    <string name="deliver_mail_ru">deliver@mail.ru</string>
+    <string name="password">Password</string>
+    <string name="your_password">Your password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="invalid_login_or_password">Неправильно введённый логин или пароль</string>
+    <string name="invalid_data">Неверные данные</string>
+    <string name="ok">OK</string>
+    <string name="invalid_token">Невалидный токен</string>
+    <string name="full_name">Full name</string>
+    <string name="full_name_example">Alexander Lenchenkov</string>
+    <string name="phone_number">Phone number</string>
+    <string name="phone_number_example">+7 (951) 933-99-99</string>
+    <string name="register_now">Register now</string>
+    <string name="cancel">Cancel</string>
+    <string name="fill_the_data_correctly">Заполните данные в правильном формате</string>
+    <string name="choose_ship_address">Выберите адрес доставки</string>
+    <string name="search">Search</string>
+    <string name="results">Results</string>
+    <string name="foods">Foods</string>
+    <string name="drinks">Drinks</string>
+    <string name="snacks">Snacks</string>
+    <string name="sauce">Sauce</string>
+    <string name="continue_shop">Continue Shop</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="go_to_cart">Go to cart</string>
+    <string name="delivery_info">Delivery Info</string>
+</resources>

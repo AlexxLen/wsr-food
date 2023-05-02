@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grayBg"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".activities.ItemActivity">
+
+    <Button
+        android:id="@+id/buttonGoBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_item_back"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="120dp">
+
+        <ImageView
+            android:id="@+id/imageViewDishIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            tools:src="@tools:sample/avatars" />
+
+    </androidx.cardview.widget.CardView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <RadioButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:buttonTint="@color/orange"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:buttonTint="@color/gray" />
+
+        <RadioButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:buttonTint="@color/gray" />
+
+        <RadioButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:buttonTint="@color/gray" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewDishName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Dish name"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/textViewDishPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="N1231"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textColor="@color/orange"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewDeliveryInfoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delivery_info"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textViewDeliveryInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delivered between monday aug and thursday 20 from 8pm to 9:32 pm"
+        android:textSize="18sp"
+        android:textColor="@color/textGray"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/buttonAddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="@color/orange"
+        android:padding="10dp"
+        android:text="@string/add_to_cart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+</LinearLayout>
